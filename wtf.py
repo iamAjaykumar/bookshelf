@@ -1,1 +1,2 @@
-print('ediathe adi aindi le')
+print(1)
+print('hello wrold')
