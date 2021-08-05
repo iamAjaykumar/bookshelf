@@ -1,1 +1,1 @@
-print('learning to push')
+print('ededo authhundi')
