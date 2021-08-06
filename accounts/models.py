@@ -1,10 +1,12 @@
 from django.db import models
 from django.db.models.base import Model
 from PIL import Image,ImageOps
+from django.contrib.auth.models import User
 
 # Create your models here.
 class BookInformation(models.Model):
 
+    
     title=models.CharField(max_length=28)
     author=models.CharField(max_length=25)
     published_year=models.CharField(max_length=4)
